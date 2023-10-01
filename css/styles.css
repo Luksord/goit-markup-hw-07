@@ -38,7 +38,7 @@ body {
   color: #f4f4fd;
 }
 
-.nav-list {
+.list .nav-list {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -48,7 +48,7 @@ body {
   font-style: normal;
 }
 
-.address-list {
+.list .address-list {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
@@ -107,6 +107,7 @@ body {
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 .list-team {
@@ -131,7 +132,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.button-list {
+.list .button-list {
   background-color: var(--CLOUD, #f4f4fd);
   color: var(--IRIS, #4d5ae5);
   font-family: inherit;
