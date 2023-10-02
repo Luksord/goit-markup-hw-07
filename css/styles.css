@@ -29,10 +29,6 @@ body {
   text-transform: uppercase;
 }
 
-.logo .link {
-  text-decoration: none;
-}
-
 .logo-span {
   color: #2e2f42;
 }
@@ -41,23 +37,21 @@ body {
   color: #f4f4fd;
 }
 
-.list .nav-list {
+.nav-list {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   font-style: normal;
 }
 
-.list .address-list {
+.address-list {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   font-style: normal;
 }
 
@@ -72,6 +66,18 @@ body {
 .address-list:focus,
 .address-list:active {
   color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list-team {
+  background-color: #ffffff;
 }
 
 .section-one {
@@ -110,18 +116,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-
-.list {
-  list-style: none;
-}
-
-.list .link {
-  text-decoration: none;
-}
-
-.list-team {
-  background-color: #ffffff;
 }
 
 .paragraph {
