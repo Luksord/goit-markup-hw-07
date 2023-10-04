@@ -37,7 +37,7 @@ body {
   color: #f4f4fd;
 }
 
-.nav-list {
+.navigation-list {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -59,9 +59,9 @@ body {
   font-style: normal;
 }
 
-.nav-list:hover,
-.nav-list:focus,
-.nav-list:active,
+.navigation-list:hover,
+.navigation-list:focus,
+.navigation-list:active,
 .address-list:hover,
 .address-list:focus,
 .address-list:active {
@@ -136,7 +136,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.list .button-list {
+.button {
   background-color: var(--CLOUD, #f4f4fd);
   color: var(--IRIS, #4d5ae5);
   font-family: inherit;
@@ -144,13 +144,12 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-decoration: none;
   cursor: pointer;
 }
 
-.button-list:hover,
-.button-list:focus,
-.button-list:active {
+.button:hover,
+.button:focus,
+.button:active {
   color: var(--WHITE, #fff);
   background-color: var(--OCEAN, #404bbf);
 }
