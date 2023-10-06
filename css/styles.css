@@ -43,6 +43,11 @@ body {
   color: #f4f4fd;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .navigation-list {
   color: #2e2f42;
   font-weight: 500;
@@ -210,10 +215,12 @@ body {
 }
 
 .container {
-  width: 1158px;
-  padding-inline: 15px;
-  margin-inline: auto;
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .section {
@@ -225,9 +232,9 @@ body {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   padding-top: 25.5px;
   /*padding-left: 156px;*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.header-wrap {
 }
 
 .visually-hidden {
