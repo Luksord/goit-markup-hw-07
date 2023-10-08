@@ -162,6 +162,8 @@ body {
 
 .section-one > .container {
   width: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .primary-title {
