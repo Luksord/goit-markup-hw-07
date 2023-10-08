@@ -160,11 +160,10 @@ body {
 
 .section-one > .container {
   width: 600px;
-  padding: 188px 0;
 }
 
 .one-padding {
-  padding: 188px 0;
+  padding: 188px 0 188px;
 }
 
 .primary-title {
