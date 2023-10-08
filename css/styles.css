@@ -156,14 +156,11 @@ body {
   background-color: #2e2f42;
   display: flex;
   justify-content: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .section-one > .container {
   width: 600px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .primary-title {
