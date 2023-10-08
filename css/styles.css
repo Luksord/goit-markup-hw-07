@@ -60,8 +60,7 @@ body {
 }
 
 .nav-li {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .navigation-list {
@@ -156,8 +155,7 @@ body {
   background-color: #2e2f42;
   display: flex;
   justify-content: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .section-one > .container {
@@ -173,7 +171,7 @@ body {
   align-items: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 
 .button-order-service {
@@ -194,7 +192,6 @@ body {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-bottom: 188px;
 }
 
 .button-order-service:hover,
@@ -220,14 +217,14 @@ body {
 }
 
 .section-two-list {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   padding-top: 120px;
 }
 
 /* Section Three */
 
 .section-three-link {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /* Section Four */
@@ -256,14 +253,13 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .team-member {
   justify-content: center;
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -298,6 +294,10 @@ body {
 
 /* Portfolio Button Section */
 
+.buttons {
+  margin-bottom: 72px;
+}
+
 .button {
   background-color: var(--cloud);
   color: var(--iris);
@@ -307,11 +307,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  margin-bottom: 72px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
   padding: 12px 24px;
-  margin-bottom: 72px;
 }
 
 .button:hover,
@@ -361,6 +359,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   width: 1158px;
   margin: 0 auto;
@@ -375,8 +374,33 @@ body {
   justify-content: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 /* Footer */
