@@ -172,6 +172,9 @@ body {
   align-items: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+}
+
+.container > .primary-title {
   margin-bottom: 48px;
 }
 
@@ -193,6 +196,7 @@ body {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 68px;
 }
 
 .button-order-service:hover,
@@ -208,7 +212,6 @@ body {
 } */
 
 .section-two {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -341,11 +344,15 @@ body {
 .app-info {
   border: 1px solid var(--cornflower);
   border-top: none;
-  padding: 32px 16px;
+  padding: 32px 16px 32px 16px;
 }
 
 .app-info > .paragraph {
-  margin-bottom: 32px;
+  text-align: left;
+}
+
+.app-info > .tertiary-title {
+  margin-bottom: 8px;
   text-align: left;
 }
 
@@ -365,7 +372,6 @@ body {
 
 .section {
   padding-bottom: 120px;
-  padding: 188px 0;
 }
 
 .section .list {
@@ -420,11 +426,10 @@ ol {
 .footer > .container {
   display: inline-block;
   justify-content: flex-start;
+  padding: 101.5px 0 100px 0;
 }
 
 .logo-container {
-  display: inline-block;
-  justify-content: flex-start;
   margin-left: 156px;
   margin-bottom: 16px;
 }
@@ -439,6 +444,7 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 16px;
   margin-left: 156px;
   max-width: 264px;
 }
