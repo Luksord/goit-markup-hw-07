@@ -320,6 +320,35 @@ ol {
   text-align: center;
 }
 
+/* Social Links */
+
+.social-links-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.eclipse {
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media {
+  display: inline-flex;
+}
+
 /* Section Five */
 
 .section-five {
