@@ -191,6 +191,9 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.social-link:hover,
+.social-link:focus,
+.social-link:active,
 .navigation-list:hover,
 .navigation-list:focus,
 .navigation-list:active,
@@ -343,16 +346,6 @@ ol {
   margin-top: 8px;
 }
 
-/*.eclipse {
-  background-color: var(--iris);
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-}*/
-
 .social-link {
   display: flex;
   align-items: center;
@@ -362,6 +355,7 @@ ol {
   background-color: #4d5ae5;
   border: none;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .social-link:hover,
@@ -393,8 +387,12 @@ ol {
 }
 
 .logo-link:hover,
-.logo-link:focus,
-.logo-link:action {
+.logo-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.logo-link:active {
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -512,7 +510,7 @@ ol {
 }
 .app-link:hover,
 .app-link:focus,
-.app-link:action {
+.app-link:active {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16);
 }
@@ -535,9 +533,7 @@ ol {
 
 .footer-first-subcontainer {
   margin-right: 120px;
-}
-
-.footer-second-subcontainer {
+  align-items: baseline;
 }
 
 .social-media-paragraph {
