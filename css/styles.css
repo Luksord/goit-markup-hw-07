@@ -521,8 +521,8 @@ ol {
 }
 
 .footer-flex {
-  align-items: baseline;
   display: flex;
+  align-items: baseline;
 }
 
 .footer-first-subcontainer {
