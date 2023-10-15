@@ -523,6 +523,7 @@ ol {
 .footer-main-container {
   display: flex;
   align-items: baseline;
+  justify-content: flex-start;
 }
 
 .footer-first-subcontainer {
