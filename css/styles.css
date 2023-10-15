@@ -527,6 +527,8 @@ ol {
 }
 
 .footer-first-subcontainer {
+  flex-direction: column;
+  align-items: flex-start;
   margin-right: 120px;
 }
 
@@ -541,6 +543,7 @@ ol {
 }
 
 .footer-social-list {
+  display: flex;
   gap: 16px;
 }
 
