@@ -520,15 +520,12 @@ ol {
   padding: 100px 0;
 }
 
-.footer-main-container {
+.footer-flex {
   display: flex;
   align-items: baseline;
-  justify-content: flex-start;
 }
 
 .footer-first-subcontainer {
-  flex-direction: column;
-  align-items: flex-start;
   margin-right: 120px;
 }
 
