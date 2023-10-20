@@ -675,6 +675,8 @@ ol {
 .modal-close-button:focus {
   background-color: #404bbf;
   border: none;
+  background-color: #404bbf;
+  border: none;
   fill: #ffffff;
 }
 
