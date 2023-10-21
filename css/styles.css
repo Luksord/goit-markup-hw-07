@@ -603,6 +603,8 @@ ol {
   max-width: 264px;
 }
 
+/* Modal */
+
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -658,8 +660,6 @@ ol {
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-  background-color: #404bbf;
-  border: none;
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
