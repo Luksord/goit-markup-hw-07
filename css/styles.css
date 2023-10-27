@@ -608,6 +608,16 @@ ol {
   display: block;
 }
 
+.subscribe-paragraph {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
 .footer-form {
   display: flex;
   flex-direction: row;
@@ -631,7 +641,7 @@ ol {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  margin-top: 16px;
+  gap: 24px;
 }
 
 .footer-input::placeholder {
@@ -639,7 +649,7 @@ ol {
 }
 
 .subscribe-button {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -654,7 +664,6 @@ ol {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  margin-top: 16px;
 }
 
 .subscribe-icon {
