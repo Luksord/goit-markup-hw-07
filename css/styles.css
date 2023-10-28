@@ -804,6 +804,12 @@ ol {
 
 .checkbox-container {
   margin-bottom: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
 }
 
 .checkbox:checked {
@@ -832,8 +838,6 @@ ol {
 }
 
 .icon-checkbox {
-  width: 15px;
-  height: 15px;
 }
 
 .privacy-terms {
