@@ -1,0 +1,136 @@
+/* Footer */
+
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-first-subcontainer {
+  margin-right: 120px;
+}
+
+.social-media-paragraph {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media-container {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.logo-container {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.logo-footer-span {
+  color: #f4f4fd;
+}
+
+.footer-paragraph {
+  color: var(--cloud);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 264px;
+}
+
+.subscribe-container {
+  margin-left: 80px;
+  display: block;
+}
+
+.subscribe-paragraph {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-label {
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
