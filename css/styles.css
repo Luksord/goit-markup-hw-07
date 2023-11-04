@@ -60,7 +60,23 @@
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1158px;
+  min-width: 428px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    /* max-width: 1158px; */
+    max-width: 1440px;
+  }
 }
 
 /* Mobile Menu */
