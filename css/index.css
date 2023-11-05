@@ -153,12 +153,20 @@
   flex-direction: column;
   row-gap: 72px;
 }
-@media (max-width: 767px) {
+.section-two .tertiary-title .section-two .paragraph {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
   .section-two-list {
-    width: calc((100% - 72px) / 1);
+    width: calc((100% - 72px) / 2);
     flex-direction: column;
     row-gap: 72px;
   }
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
 }
 
 /* Section Three */
