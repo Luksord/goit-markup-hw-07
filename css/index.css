@@ -147,6 +147,12 @@
   flex-direction: column;
   row-gap: 72px;
 }
+@media screen and (max-width: 767px) {
+  .list.section-two-list {
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 768px) {
   .list.section-two-list {
     flex-direction: row;
