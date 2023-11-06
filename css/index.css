@@ -257,22 +257,6 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .list-our-team {
-    flex-direction: row;
-    justify-content: center;
-    column-gap: var(--GAP-BASIC);
-  }
-  .item-our-team {
-    max-width: var(--WIDTH-TWO);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .item-our-team {
-    max-width: var(--WIDTH-FOUR);
-  }
-}
-
 .team-member {
   padding: 32px 0px;
   text-align: center;
@@ -315,9 +299,35 @@
 
 /* Section Five */
 
+.section-five-list {
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 72px;
+}
+@media screen and (min-width: 768px) {
+  .section-five-list {
+    column-gap: 24px;
+  }
+}
+
 .logo-list {
-  width: calc((100% - 120px) / 6);
+  display: flex;
+  width: calc((100% - 120px) / 2);
   height: 88px;
+  max-width: 190px;
+}
+@media screen and (min-width: 768px) {
+  .logo-list {
+    width: calc((100% - 72px) / 3);
+    max-width: 168px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo-list {
+    width: calc((100% - 120px) / 6);
+    max-width: 168px;
+  }
 }
 
 .logo-link {
