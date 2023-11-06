@@ -196,22 +196,17 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section-two-item {
-    width: calc((100% - 72px) / 2);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section-two-item {
-    width: calc((100% - 72px) / 4);
-  }
-}
-
-@media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1200px) {
 }
 
 /* Section Three */
+
+@media (max-width: 1199px) {
+  .section.section-three {
+    display: none;
+  }
+}
 
 .section-three {
   padding-top: 0;
@@ -225,23 +220,61 @@
 
 .section-four {
   background-color: #f4f4fd;
-  padding-top: 120px;
 }
 
 .section-four-list {
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .section-four-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    justify-content: center;
+  }
+}
+
+.section-four-item {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  width: calc((100% - 72px) / 4);
+  width: 264px;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .section-four-item {
+    width: calc((100% - 72px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-four-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list-our-team {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: var(--GAP-BASIC);
+  }
+  .item-our-team {
+    max-width: var(--WIDTH-TWO);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .item-our-team {
+    max-width: var(--WIDTH-FOUR);
+  }
 }
 
 .team-member {
   padding: 32px 0px;
-}
-
-.team-member .paragraph {
   text-align: center;
 }
 
@@ -249,9 +282,10 @@
 
 .social-list {
   display: flex;
-  gap: 24px;
+  align-items: center;
   justify-content: center;
   margin-top: 8px;
+  max-width: 264px;
 }
 
 .social-link {
@@ -264,7 +298,9 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
