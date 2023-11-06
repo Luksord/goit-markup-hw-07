@@ -50,7 +50,12 @@
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 120px 0;
+  }
 }
 
 .section .list {

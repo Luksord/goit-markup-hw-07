@@ -144,9 +144,6 @@
   .list {
     display: none;
   }
-  .section {
-    padding-top: 96px;
-  }
 }
 
 .section-two-list {
@@ -157,7 +154,7 @@
   .section-two-list {
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
+    row-gap: 24px;
   }
 }
 
