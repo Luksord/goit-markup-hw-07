@@ -42,12 +42,19 @@
   gap: 40px;
 }
 
+@media (min-width: 768px) {
+  .item-menu {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
 .menu-link {
   color: #2e2f42;
-  /*font-size: 16px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;*/
+  letter-spacing: 0.02em;
   position: relative;
   display: inline-block;
   flex-direction: column;
@@ -76,17 +83,67 @@
   border-radius: 2px;
 }
 
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+}
+@media all and (min-width: 768px) {
+  .address {
+    margin-left: auto;
+    max-width: 119px;
+  }
+}
+@media all and (min-width: 1158px) {
+  .address {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .item-address {
+    display: flex;
+  }
+}
+
+.list.address-list {
+  gap: 40px;
+}
+@media screen and (min-width: 768px) {
+  .list.address-list {
+    display: block;
+    gap: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .list.address-list {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+}
+
 .address-link {
   color: #434455;
-  display: block;
+  display: flex;
   font-style: normal;
-  /*font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;*/
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1158px) {
+  .address-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
 
 .social-link:hover,
@@ -95,37 +152,17 @@
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active,
-.address-list:hover,
-.address-list:focus,
-.address-list:active {
+.address-link:hover,
+.address-link:focus,
+.address-link:active {
   color: #404bbf;
 }
 
-@media (max-width: 767px) {
-  .menu {
+@media screen and (max-width: 767px) {
+  .list.list-header {
     display: none;
   }
-}
-@media (min-width: 768px) {
-  .item-menu {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-}
-@media (min-width: 768px) and (max-width: 1199px) {
-  .list-header {
-    flex-direction: column;
-    gap: 12px;
-  }
-  .item-address {
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-  }
-}
-@media (min-width: 1200px) {
-  .item-address {
-    font-size: 16px;
-    line-height: 1.5;
+  .list.address-list {
+    display: none;
   }
 }
