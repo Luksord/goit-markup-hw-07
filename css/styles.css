@@ -70,11 +70,14 @@
 .container {
   margin: 0 auto;
   padding: 0 16px;
-  min-width: 428px;
 }
 @media screen and (min-width: 320px) and (max-width: 427px) {
   .container {
-    width: 320;
+  }
+}
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
   }
 }
 @media screen and (min-width: 768px) {

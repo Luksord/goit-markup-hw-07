@@ -250,11 +250,11 @@
 }
 @media screen and (max-width: 427px) {
   .section-two-item > .paragraph {
-    font-weight: 500;
-    width: 280px;
+    width: 320px;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    padding-left: 70px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -373,6 +373,7 @@
 
 .list.section-five-list {
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   column-gap: 16px;
   row-gap: 72px;
@@ -388,6 +389,11 @@
   width: calc((100% - 72px) / 2);
   height: 88px;
   width: 190px;
+}
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .logo-list {
+    display: block;
+  }
 }
 @media screen and (min-width: 768px) {
   .logo-list {
