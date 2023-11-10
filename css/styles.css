@@ -72,6 +72,11 @@
   padding: 0 16px;
   min-width: 428px;
 }
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .container {
+    width: 320;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -123,6 +128,7 @@
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  overflow: auto;
 }
 .menu-container.is-open {
   transform: translateX(0);
@@ -157,9 +163,11 @@
   margin: 0;
   list-style: none;
   margin-bottom: 48px;
+  display: block;
 }
 
 .mobile-address-tel {
+  display: flex;
   color: #4d5ae5;
   font-family: inherit;
   font-size: 36px;
@@ -178,6 +186,7 @@
 }
 
 .mobile-address-mail {
+  display: flex;
   color: #434455;
   font-family: inherit;
   font-size: 20px;
